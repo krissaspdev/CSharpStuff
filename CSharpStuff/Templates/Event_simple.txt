@@ -1,0 +1,13 @@
+﻿        public event EventHandler $field$Changed;
+
+        protected virtual void On$field$Changed(EventArgs e)
+        {
+            $field$Changed?.Invoke(this, e);
+        }
+
+        public void SomeMethod()
+        {
+            //code before ....
+            On$field$Changed(EventArgs.Empty);
+            //code after ....
+        }
