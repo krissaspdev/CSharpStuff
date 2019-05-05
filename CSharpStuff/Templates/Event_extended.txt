@@ -1,0 +1,28 @@
+﻿    //put this outside
+	public class $field$ChangedEventArgs : EventArgs
+    {
+        public readonly decimal Last$field$;
+        public readonly decimal New$field$;
+        public PriceChangedEventArgs(decimal last$field$, decimal new$field$)
+        {
+            Last$field$ = last$field$;
+            New$field$ = new$field$;
+        }
+    }
+
+
+        public event EventHandler<$field$ChangedEventArgs> $field$Changed;
+
+        protected virtual void On$field$Changed($field$ChangedEventArgs e)
+        {
+            $field$Changed?.Invoke(this, e);
+        }
+
+        public void SomeMethodOrProperty()
+        {
+		    decimal old$field$ = 1m;
+            decimal new$field$ = 2m;
+            //code before ....
+            On$field$Changed(new $field$ChangedEventArgs(old$field$, new$field$));
+            //code after ....
+        }
