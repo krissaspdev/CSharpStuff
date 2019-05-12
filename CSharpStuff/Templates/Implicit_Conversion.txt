@@ -1,0 +1,4 @@
+﻿        public static implicit operator $ToType$($FormType$ ft)
+        {
+            return ft.value; // value for example
+        }
