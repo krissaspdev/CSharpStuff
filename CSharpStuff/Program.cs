@@ -1,4 +1,5 @@
 ﻿using System;
+using CSharpStuff.DesignPatterns.Creational.Builder;
 
 namespace CSharpStuff
 {
@@ -7,7 +8,8 @@ namespace CSharpStuff
         static void Main(string[] args)
         {
             //Basics.Events.Runner.Run();
-            DesignPatterns.Creational.Builder.Runner.Run();
+            //DesignPatterns.Creational.Builder.Runner.Run();
+            FluentBuilderRunner.Run();
         }
     }
 }
