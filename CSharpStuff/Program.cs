@@ -9,7 +9,8 @@ namespace CSharpStuff
         {
             //Basics.Events.Runner.Run();
             //DesignPatterns.Creational.Builder.Runner.Run();
-            FluentBuilderRunner.Run();
+            //FluentBuilderRunner.Run();
+            FluentBuilderSimpleRunner.Run();
         }
     }
 }
