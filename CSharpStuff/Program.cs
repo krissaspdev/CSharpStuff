@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using CSharpStuff.DesignPatterns.Creational.Builder;
 
 namespace CSharpStuff
@@ -10,7 +11,9 @@ namespace CSharpStuff
             //Basics.Events.Runner.Run();
             //DesignPatterns.Creational.Builder.Runner.Run();
             //FluentBuilderRunner.Run();
-            FluentBuilderSimpleRunner.Run();
+            //FluentBuilderSimpleRunner.Run();
+            //DesignPatterns.Creational.Factory.Runner.Run();
+            DesignPatterns.Creational.Factory.InnerFactory.Runner.Run();
         }
     }
 }
