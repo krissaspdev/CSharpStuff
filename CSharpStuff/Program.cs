@@ -13,7 +13,9 @@ namespace CSharpStuff
             //FluentBuilderRunner.Run();
             //FluentBuilderSimpleRunner.Run();
             //DesignPatterns.Creational.Factory.Runner.Run();
-            DesignPatterns.Creational.Factory.InnerFactory.Runner.Run();
+            //DesignPatterns.Creational.Factory.InnerFactory.Runner.Run();
+
+            DesignPatterns.Creational.Factory.AbstractFactoryOcp.Runner.Run();
         }
     }
 }
