@@ -15,7 +15,8 @@ namespace CSharpStuff
             //DesignPatterns.Creational.Factory.Runner.Run();
             //DesignPatterns.Creational.Factory.InnerFactory.Runner.Run();
 
-            DesignPatterns.Creational.Factory.AbstractFactoryOcp.Runner.Run();
+            //DesignPatterns.Creational.Factory.AbstractFactoryOcp.Runner.Run();
+            DesignPatterns.Behavioral.Strategy.Dynamic.Runner.Run();
         }
     }
 }
