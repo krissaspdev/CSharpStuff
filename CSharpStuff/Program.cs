@@ -17,7 +17,10 @@ namespace CSharpStuff
 
             //DesignPatterns.Creational.Factory.AbstractFactoryOcp.Runner.Run();
             //DesignPatterns.Behavioral.Strategy.Dynamic.Runner.Run();
-            DesignPatterns.Behavioral.Strategy.Static.Runner.Run();
+            //DesignPatterns.Behavioral.Strategy.Static.Runner.Run();
+
+            //DesignPatterns.Structural.BridgeSimple.Runner.Run();
+            DesignPatterns.Structural.BridgeSimple.RunnerWithDI.Run();
         }
     }
 }
