@@ -20,7 +20,9 @@ namespace CSharpStuff
             //DesignPatterns.Behavioral.Strategy.Static.Runner.Run();
 
             //DesignPatterns.Structural.BridgeSimple.Runner.Run();
-            DesignPatterns.Structural.BridgeSimple.RunnerWithDI.Run();
+            //DesignPatterns.Structural.BridgeSimple.RunnerWithDI.Run();
+
+            DesignPatterns.Structural.Proxy.ProtectionProxy.Runner.Run();
         }
     }
 }
