@@ -22,7 +22,8 @@ namespace CSharpStuff
             //DesignPatterns.Structural.BridgeSimple.Runner.Run();
             //DesignPatterns.Structural.BridgeSimple.RunnerWithDI.Run();
 
-            DesignPatterns.Structural.Proxy.ProtectionProxy.Runner.Run();
+            //DesignPatterns.Structural.Proxy.ProtectionProxy.Runner.Run();
+            DesignPatterns.Structural.Proxy.PropertyProxy.Runner.Run();
         }
     }
 }
